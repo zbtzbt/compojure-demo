@@ -1,6 +1,6 @@
 (defproject compojure-demo "0.1.0-SNAPSHOT"
   :description "REST server"
-  :url "http://example.com/FIXME"
+  :url "https://github.com/zbtzbt/compojure-demo"
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [compojure "1.4.0"]
