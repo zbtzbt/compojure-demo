@@ -6,7 +6,10 @@
                  [compojure "1.4.0"]
                  [ring/ring "1.3.1"]
                  [ring/ring-json "0.3.1"]
-                 [ring/ring-defaults "0.1.5"]]
+                 [ring/ring-defaults "0.1.5"]
+                 [c3p0/c3p0 "0.9.1.2"]
+                 [org.clojure/java.jdbc "0.2.3"]
+                 [mysql/mysql-connector-java "5.1.6"]]
   :plugins [[lein-ring "0.9.7"]]
   :ring {:handler compojure-demo.handler/app
          :auto-reload? true

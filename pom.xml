@@ -10,7 +10,7 @@
   <scm>
     <connection>scm:git:git://github.com/zbtzbt/compojure-demo.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/zbtzbt/compojure-demo.git</developerConnection>
-    <tag>398bcf4e245bbf1ed71eb49ca2914a3233f2c353
+    <tag>c38c2146d5fb8729a203e2b26f041bc26dde0f59
 </tag>
     <url>https://github.com/zbtzbt/compojure-demo</url>
   </scm>
@@ -78,6 +78,21 @@
       <groupId>ring</groupId>
       <artifactId>ring-defaults</artifactId>
       <version>0.1.5</version>
+    </dependency>
+    <dependency>
+      <groupId>c3p0</groupId>
+      <artifactId>c3p0</artifactId>
+      <version>0.9.1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>java.jdbc</artifactId>
+      <version>0.2.3</version>
+    </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.6</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
